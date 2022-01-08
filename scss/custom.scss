@@ -1,0 +1,59 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+// #experiment {
+//   position: absolute;
+//   top: 50%;
+//   transform: translateY(-50%);
+// }
+
+html { 
+    height: 100%; 
+    font-size: 20px;
+}
+
+.smallfont {
+    font-size: 14px;
+}
+
+body { height: 100%; } 
+
+.jspsych-content-wrapper {
+    height: 100%;
+}
+
+.jspsych-content {
+    height: 100%;
+}
+
+.jspsych-display-element:focus {
+  outline: none;
+}
+
+/* The more correct word was? */
+#jspsych-html-button-response-stimulus {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#jspsych-html-button-response-btngroup {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Numbers and words */
+#jspsych-html-keyboard-response-stimulus {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#jspsych-image-keyboard-response-stimulus {
+    border: 1px solid black;
+}
+
+#thank-you {
+    text-align: center;
+}

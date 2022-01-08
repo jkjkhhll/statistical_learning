@@ -1,0 +1,45 @@
+<form class="needs-validation" id="personal-info-form" novalidate>
+
+    <div class="mb-3">
+        <h4>Täytä seuraavaksi tietosi.</h4>
+    </div>
+
+    <div class="mb-3">
+        <label for="age" class="form-label">Ikä</label>
+        <input type="number" min="18" max="50" class="form-control" id="age" required>
+        <div class="invalid-feedback">
+            Ikä tulee olla 18 - 50.
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label for="gender" class="form-label">Sukupuoli</label>
+        <select class="form-select" id="gender" required>
+            <option selected disabled value="">Valitse...</option>
+            <option value="male">Mies</option>
+            <option value="female">Nainen</option>
+            <option value="other">Muu</option>
+        </select>
+        <div class="invalid-feedback">
+            Valitse sukupuoli.
+        </div>
+    </div>
+
+    <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="confirm_checkbox" required>
+        <label class="form-check-label" for="exampleCheck1">Suomi on ainoa äidinkieleni.</label>
+    </div>
+
+    <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="confirm_checkbox" required>
+        <label class="form-check-label" for="exampleCheck1">Olen terve, eikä minulla ole kielen tai oppimisen vaikeuksia.</label>
+    </div>
+
+    <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="confirm_checkbox" required>
+        <label class="form-check-label" for="exampleCheck1">Kuuloni on normaali.</label>
+    </div>
+
+</form>
+
+<button type="button" class="btn btn-primary" id="next">Jatka</button>
